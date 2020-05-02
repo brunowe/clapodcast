@@ -1,12 +1,15 @@
 import React from "react";
 
-function App() {
-  return (
-    <>
-      <h1>Olá Mundo! Esta será a página do Clã Podcast!</h1>
-      <h2>Ou seja lá o nome que a gente for dar pra isso.</h2>
-    </>
-  );
-}
+import { BrowserRouter } from "react-router-dom";
 
-export default App;
+import Routes from "./routes";
+
+export default class App extends React.Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    );
+  }
+}
