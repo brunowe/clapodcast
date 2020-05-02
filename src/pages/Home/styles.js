@@ -13,15 +13,20 @@ export const Bg = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-
   align-items: center;
-  width: 90%;
   background: rgba(0, 0, 0, 0.1);
   border: 0;
   border-radius: 4px;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 15px 10px 15px;
+  margin: auto 5px auto 5px;
+  text-align: center;
   h1,
   h2 {
     color: #fff;
+    margin-bottom: 10px;
+  }
+  h1 {
+    margin-top: 10px;
   }
 `;
