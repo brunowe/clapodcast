@@ -1,8 +1,6 @@
 import React from "react";
 import { Content, Bg } from "./styles";
 
-// import { Container } from './styles';
-
 export default class Home extends React.Component {
   render() {
     return (
@@ -10,6 +8,7 @@ export default class Home extends React.Component {
         <Content>
           <h1>Olá Mundo! Esta será a página do Clã Podcast!</h1>
           <h2>Ou seja lá o nome que a gente for dar pra isso.</h2>
+          <a href="/casts">Casts</a>
         </Content>
       </Bg>
     );
